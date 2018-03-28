@@ -120,8 +120,8 @@ p users["Erik"][:home_town]
 users["Erik"][:pets] << [:name => "Fluffy", :species => "dog"]
 p users ["Erik"][:pets]
 # 10. Add another person to the users hash
-
-
+users["Bob"] = [:twitter => "bobloblaw", :lottery_numbers => [1,2,3,4,5,6], :home_town => "Dundee"]
+p users
 
 ## Exercise C
 
