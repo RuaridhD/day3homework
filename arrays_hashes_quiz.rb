@@ -117,7 +117,10 @@ p users["Erik"][:lottery_numbers] << 7
 users["Erik"][:home_town] = "Edinburgh"
 p users["Erik"][:home_town]
 # 9. Add a pet dog to Erik called "Fluffy"
+users["Erik"][:pets] << [:name => "Fluffy", :species => "dog"]
+p users ["Erik"][:pets]
 # 10. Add another person to the users hash
+
 
 
 ## Exercise C
