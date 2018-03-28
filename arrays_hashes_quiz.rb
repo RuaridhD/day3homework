@@ -31,7 +31,11 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # 9. Reverse the positions of the stops in the array
 p stops.reverse
 # 10. Print out all the stops using a for loop
-
+def print_stops
+  for stop in stops
+p stop
+end
+end
 ## Exercise B
 
 ### Given the following data structure:
